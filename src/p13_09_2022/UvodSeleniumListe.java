@@ -27,7 +27,7 @@ public class UvodSeleniumListe {
 			System.out.println(links.get(i).getText());
 		}
 		Thread.sleep(5000);
-		driver.quit();
+		//driver.quit();
 	}
 
 }
