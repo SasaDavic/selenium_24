@@ -27,7 +27,7 @@ Skinite Zadatak6.html sa drajva. Otvorite u pretrazivacu duplim klikom na fajl i
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(15));
 		
-		driver.get("file:///C:/Users/KTG/Desktop/QA%20sve/Selenijum/p15.09.2022/15.09.2022/Zadatak6a.html");
+		driver.get("file:/C:/Users/KTG/Desktop/QA%20sve/Selenijum/p15.09.2022/15.09.2022/Zadatak6a.html");
 		
 		
 		for (int i = 0; i < 5; i++) {
