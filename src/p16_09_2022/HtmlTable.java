@@ -119,7 +119,7 @@ tabelu sa stranice
 		Thread.sleep(5000);
 		tableO.sortDescending("Athlete");
 		Thread.sleep(5000);
-		//driver.quit();
+		driver.quit();
 	}
 
 }
